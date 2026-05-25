@@ -1,6 +1,6 @@
 body {
     color: white;
-    background: #CC0000; /* Vermelho forte e vivo no lugar do preto */
+    background: black;
     margin: 0px;
     font-family: "Chakra Petch", sans-serif;
     margin-bottom: 100px;
@@ -58,3 +58,4 @@ p {
 .categoria h2 {
     color: rgb(42, 122, 228);
 }
+
