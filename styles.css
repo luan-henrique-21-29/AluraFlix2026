@@ -1,21 +1,20 @@
 body {
-    color: white;
-    background: #7a1537;
-background: linear-gradient(143deg, rgba(122, 21, 55, 1) 13%, rgba(199, 8, 8, 1) 51%, rgba(176, 42, 111, 1) 83%);
+    color: #F3F4F6; /* Branco fosco para não agredir os olhos */
+    background: #0B0C10; /* Preto cinematográfico profundo */
     margin: 0px;
     font-family: "Chakra Petch", sans-serif;
     margin-bottom: 100px;
 }
 
 header {
-    border-bottom: solid 2px rgb(42, 122, 228);
+    border-bottom: solid 2px #6366F1; /* Azul arroxeado neon moderno */
     padding: 20px;
     font-size: 32px;
-    color: rgb(42, 122, 228);
+    color: #6366F1; /* Texto do header combinando com a borda */
 }
 
 .chamada {
-    background: rgb(184, 156, 213);
+    background: #1F1E2E; /* Roxo escuro fechado para dar profundidade ao destaque */
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
@@ -28,10 +27,12 @@ header {
 
 h1 {
     font-size: 40px;
+    color: #FFFFFF; /* Branco puro para o título principal ter impacto */
 }
 
 p {
     font-size: 20px;
+    color: #9CA3AF; /* Cinza claro para textos secundários */
 }
 
 .categoria-videos {
@@ -47,16 +48,18 @@ p {
 }
 
 .categoria-videos img {
-    opacity: 0.5;
+    opacity: 0.6; /* Aumentado levemente para melhorar a visibilidade inicial */
     height: 200px;
+    transition: all 0.3s ease; /* Transição suave ao passar o mouse */
 }
 
 .categoria-videos img:hover {
     opacity: 1.0;
-    border: 3px solid rgb(53, 110, 106);
+    border: 3px solid #F59E0B; /* Dourado/Amarelo premium ao passar o mouse */
 }
 
 .categoria h2 {
-    color: rgb(42, 122, 228);
+    color: #6366F1; /* Títulos das categorias combinando com a identidade visual */
 }
+
 
